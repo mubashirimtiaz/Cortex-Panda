@@ -36,7 +36,7 @@ const Header = () => {
             <NavLink to="/">become a seller</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="forms/signin.html">sign in</NavLink>
+            <NavLink to="/">sign in</NavLink>
           </li>
           <li className="nav-link join-md">
             <NavLink to="/">

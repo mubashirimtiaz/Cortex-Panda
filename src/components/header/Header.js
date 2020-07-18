@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 import menuBar from "../../assets/icons/menu-icon.png";
 
@@ -14,11 +15,11 @@ const Header = () => {
           <li className="join-sm"></li>
 
           <li className="logo-link">
-            <a href="index.html">
+            <NavLink to="/">
               <span className="logo">
                 <span>JOB</span>HUB
               </span>
-            </a>
+            </NavLink>
           </li>
           <li className="toggle" onClick={handleShowMenuBar}>
             <img src={menuBar} alt="menu-bar" />
@@ -26,31 +27,23 @@ const Header = () => {
         </ul>
         <ul className={showMenuBar ? "nav-item show" : "nav-item hide"}>
           <li className="nav-link pro">
-            <a href="404/index.html" className="pro">
+            <NavLink to="/" className="pro">
               jobHub pro
-            </a>
+            </NavLink>
           </li>
-          {/* <li className="nav-link"><a href="">link</a></li> */}
-          {/* <li className="nav-link"><a href="">link</a></li> */}
+
           <li className="nav-link">
-            <a href="404/index.html">become a seller</a>
+            <NavLink to="/">become a seller</NavLink>
           </li>
           <li className="nav-link">
-            <a href="forms/signin.html">sign in</a>
+            <NavLink to="forms/signin.html">sign in</NavLink>
           </li>
           <li className="nav-link join-md">
-            <a href="forms/signup.html">
+            <NavLink to="/">
               <button className="joinbtn">Join</button>
-            </a>
+            </NavLink>
           </li>
         </ul>
-        {/* <ul className="join-md">
-                <li>
-                    <a href="">
-                        Join
-                    </a>
-                </li>
-            </ul>  */}
       </nav>
     </header>
   );

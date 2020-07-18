@@ -7,6 +7,19 @@
   --border-color: #dddddd;
   --background: #eef2f5;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #42a198;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--theme-color);
+}
+::-webkit-scrollbar-track {
+  background-color: #2c6963;
+}
 * {
   margin: 0;
   padding: 0;

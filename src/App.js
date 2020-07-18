@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import { Header, Banner } from "./components";
 import "./App.css";
 
@@ -7,6 +8,9 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <Routes>
+        <Route path="/"></Route>
+      </Routes>
     </div>
   );
 }

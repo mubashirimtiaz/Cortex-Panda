@@ -11,9 +11,7 @@ const Header = () => {
     <header className="Header">
       <nav>
         <ul className="nav-logo">
-          <li className="join-sm">
-            {/* <a href="forms/signup.html">JOIN</a> */}
-          </li>
+          <li className="join-sm"></li>
 
           <li className="logo-link">
             <a href="index.html">

@@ -34,9 +34,9 @@ const Banner = () => {
     },
   });
   return (
-    <div className="Banner container-fluid d-flex justify-content-center align-items-center">
-      <div className="container m-auto pl-md-4 pl-2">
-        <div className="row">
+    <div className="Banner py-md-5 py-2 container-fluid d-flex justify-content-center align-items-center">
+      <div className="container m-auto pl-md-4 pl-2 py-md-5">
+        <div className="row ">
           <div className="col-md-6 mt-2   px-1 px-md-5 order-2 order-md-1 text-light">
             <p className="display-3">CORTEX</p>
             <p className="display-4">COPYWRITE</p>
@@ -44,7 +44,7 @@ const Banner = () => {
               Enhance your communications with your psychology-based copywriting
               and UX writing
             </p>
-            <button className="btn rounded-pill btn-info btn-lg mt-md-5 mt-2">
+            <button className="btn rounded-pill btn-info btn-lg my-md-5 my-3 px-3">
               Send a message
             </button>
           </div>

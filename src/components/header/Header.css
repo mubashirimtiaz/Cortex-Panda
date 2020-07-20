@@ -9,6 +9,10 @@ nav {
   border-top: 5px solid var(--theme-color);
   background-color: var(--background);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 nav .nav-logo .logo {
   color: var(--text-color);

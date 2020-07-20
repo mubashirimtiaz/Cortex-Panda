@@ -31,3 +31,6 @@ body {
 a {
   text-decoration: none !important;
 }
+.display-5 {
+  font-size: 3rem;
+}

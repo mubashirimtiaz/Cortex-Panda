@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Header, Banner } from "./components";
+import { Header, Banner, Services } from "./components";
 import "./App.css";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <Services />
       <Routes>
         <Route path="/"></Route>
       </Routes>

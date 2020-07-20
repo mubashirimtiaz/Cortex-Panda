@@ -37,7 +37,7 @@ const Services = () => {
       </div>
       <div className="container  py-md-5">
         <div className="row my-2">
-          <div className="col-md-6 mt-md-4">
+          <div className="col-md-6 mt-md-4 order-2 orde-md-1">
             <p className="display-5 mt-3 mt-md-0">Website Copywriting</p>
             <p>
               I develop clear and useful text in product interfaces to help

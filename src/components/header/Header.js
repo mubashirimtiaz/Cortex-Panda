@@ -34,10 +34,10 @@ const Header = () => {
           </li>
 
           <li className="nav-link">
-            <Link to="#about">about</Link>
+            <Link to="#about">services</Link>
           </li>
           <li className="nav-link">
-            <NavLink to="/">sign in</NavLink>
+            <NavLink to="/">about</NavLink>
           </li>
           <li className="nav-link join-md">
             <NavLink to="/">

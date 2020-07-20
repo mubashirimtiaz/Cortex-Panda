@@ -6,3 +6,6 @@
     var(--theme-color-four)
   );
 }
+.Services img {
+  transform: scale(1.05);
+}

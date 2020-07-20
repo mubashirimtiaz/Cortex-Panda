@@ -37,7 +37,7 @@ const Services = () => {
       </div>
       <div className="container  py-md-5">
         <div className="row my-2">
-          <div className="col-md-6 mt-md-4 order-2 orde-md-1">
+          <div className="col-md-6 mt-md-4  order-md-1 order-2">
             <p className="display-5 mt-3 mt-md-0">Website Copywriting</p>
             <p>
               I develop clear and useful text in product interfaces to help
@@ -56,7 +56,7 @@ const Services = () => {
               <li className="list-inline-item m-2">- Sales Letter</li>
             </ul>
           </div>
-          <div className="col-md-6 m-auto">
+          <div className="col-md-6 m-auto order-md-2 order-1">
             <img
               src="https://www.cortexcopywriter.com/img/services/services-7.svg"
               alt="ux-writing"

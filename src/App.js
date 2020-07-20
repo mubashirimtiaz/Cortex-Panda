@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Header, Banner, Services, About } from "./components";
+import { Header, Banner, Services, About, Footer } from "./components";
 import "./App.css";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/"></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

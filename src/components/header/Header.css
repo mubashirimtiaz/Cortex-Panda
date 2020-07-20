@@ -38,15 +38,16 @@ nav ul li a {
 nav .nav-logo .toggle {
   cursor: pointer;
   height: 30px;
-  padding: 5px;
+  padding: 3px 5px;
   background-color: var(--theme-color);
   border-radius: 50%;
 }
 nav .nav-logo {
   display: flex;
-  padding: 15px 10px;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 nav .nav-item {
@@ -67,14 +68,17 @@ nav .nav-item.hide {
 nav .nav-item.show {
   width: 30%;
 }
-nav .nav-logo .join-sm {
+/* nav .nav-logo .join-sm {
   display: block;
 }
 nav .nav-logo .join-sm a {
   font-weight: 600;
-}
+} */
 nav .join-md {
   display: none;
+}
+nav .nav-item .nav-link {
+  padding: 0;
 }
 nav .nav-item .nav-link a {
   text-decoration: none;
@@ -82,7 +86,7 @@ nav .nav-item .nav-link a {
   border-bottom: 1px solid var(--border-color);
   font-size: 16px;
   color: var(--text-color);
-  padding: 20px 10px;
+  padding: 10px;
 }
 /* .overlay {
   width: 100%;

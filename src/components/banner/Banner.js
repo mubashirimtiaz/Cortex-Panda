@@ -24,9 +24,7 @@ const Banner = () => {
     },
   });
   const { ref: supportImgTwo } = useWebAnimations({
-    keyframes: {
-      transform: ["translateY(30px)"],
-    },
+    keyframes: [{ transform: "translateY(30px) scale(1.2)" }],
     timing: {
       // delay: 500, // Start with a 500ms delay
       duration: 3000, // Run for 1000ms
@@ -36,37 +34,40 @@ const Banner = () => {
     },
   });
   return (
-    <div className="Banner">
-      <div className="Banner-container">
-        <div className="banner-text">
-          <h1>Hello World</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            pariatur ut nisi amet esse maiores reiciendis sed. Architecto, velit
-            eveniet?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Distinctio pariatur ut nisi amet esse maiores reiciendis sed.
-            Architecto, velit eveniet?
-          </p>
-        </div>
-        <div className="banner-image">
-          <div className="main-svg">
-            <img
-              src="https://www.cortexcopywriter.com/img/intro/Intro_Featured_Image_Empty.svg"
-              alt="banner-img"
-              className="main-img"
-            />
-            <img
-              src="https://www.cortexcopywriter.com/img/intro/Intro_Front_Layer.svg"
-              alt=""
-              className="support-img-one"
-              ref={supportImgOne}
-            />
-            <img
-              src="https://www.cortexcopywriter.com/img/intro/Intro_Brain.svg"
-              alt=""
-              className="support-img-two"
-              ref={supportImgTwo}
-            />
+    <div className="Banner container-fluid d-flex justify-content-center align-items-center">
+      <div className="container m-auto pl-md-4 pl-2">
+        <div className="row">
+          <div className="col-md-6 mt-2   px-1 px-md-5 order-2 order-md-1 text-light">
+            <p className="display-3">CORTEX</p>
+            <p className="display-4">COPYWRITE</p>
+            <p className="lead">
+              Enhance your communications with your psychology-based copywriting
+              and UX writing
+            </p>
+            <button className="btn rounded-pill btn-info btn-lg mt-md-5 mt-2">
+              Send a message
+            </button>
+          </div>
+          <div className="col-md-6  m-auto order-1 order-md-2">
+            <div className="main-svg my-5 my-md-2">
+              <img
+                src="https://www.cortexcopywriter.com/img/intro/Intro_Featured_Image_Empty.svg"
+                alt="banner-img"
+                className="main-img  img-fluid"
+              />
+              <img
+                src="https://www.cortexcopywriter.com/img/intro/Intro_Front_Layer.svg"
+                alt=""
+                className="support-img-one img-fluid"
+                ref={supportImgOne}
+              />
+              <img
+                src="https://www.cortexcopywriter.com/img/intro/Intro_Brain.svg"
+                alt=""
+                className="support-img-two img-fluid"
+                ref={supportImgTwo}
+              />
+            </div>
           </div>
         </div>
       </div>

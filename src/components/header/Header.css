@@ -3,7 +3,6 @@
 nav {
   display: block;
   border-bottom: 1px solid var(--border-color);
-  background-color: #ffffff;
   z-index: 3;
   position: relative;
   border-top: 5px solid var(--theme-color-three);

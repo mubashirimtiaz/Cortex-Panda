@@ -27,5 +27,16 @@
   left: 0;
   transform: scale(1.2);
 }
+.msg-btn {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #36d1dc 5%, #5b86e5 100%);
+  background-color: #7892c2;
+  box-shadow: 1px 5px 15px var(--shadow-color);
+}
+.msg-btn:hover {
+  background: linear-gradient(to bottom, #5b86e5 5%, #36d1dc 100%);
+  background-color: #476e9e;
+  box-shadow: 1px 5px 25px var(--shadow-color);
+}
 @media screen and (max-width: 760px) {
 }

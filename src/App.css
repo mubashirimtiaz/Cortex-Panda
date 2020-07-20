@@ -8,6 +8,7 @@
   --text-color: #7a7d85;
   --border-color: #dddddd;
   --background: #eef2f5;
+  --shadow-color: #5b1f8f;
 }
 ::-webkit-scrollbar {
   width: 10px;

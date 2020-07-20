@@ -36,9 +36,9 @@ const Banner = () => {
   return (
     <div className="Banner py-md-5 py-2 container-fluid d-flex justify-content-center align-items-center">
       <div className="container m-auto pl-md-4 pl-2 py-md-5">
-        <div className="row ">
+        <div className="row mt-5">
           <div className="col-md-6 mt-2   px-1 px-md-5 order-2 order-md-1 text-light">
-            <p className="display-3">CORTEX</p>
+            <p className="display-3 font-weight-bold">CORTEX</p>
             <p className="display-4">COPYWRITE</p>
             <p className="lead">
               Enhance your communications with your psychology-based copywriting

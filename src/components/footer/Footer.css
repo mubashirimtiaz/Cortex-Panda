@@ -1,8 +1,10 @@
 .Footer {
-  height: 100vh;
+  padding: 20px 0;
+  min-height: 100vh;
   background-color: #5b1f8f;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0;
 }

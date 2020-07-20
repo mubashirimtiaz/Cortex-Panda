@@ -37,7 +37,7 @@ nav ul li a {
 
 nav .nav-logo .toggle {
   cursor: pointer;
-  height: 20px;
+  height: 30px;
   padding: 5px;
   background-color: var(--theme-color);
   border-radius: 50%;

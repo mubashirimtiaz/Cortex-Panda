@@ -17,7 +17,7 @@ const Header = () => {
           <li className="logo-link">
             <NavLink to="/">
               <span className="logo">
-                <span>JOB</span>HUB
+                <span>COR</span>TEX
               </span>
             </NavLink>
           </li>

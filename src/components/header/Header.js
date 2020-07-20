@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Header.css";
 import menuBar from "../../assets/icons/menu-icon.png";
+import closeMenuBar from "../../assets/icons/delete-icon.png";
 
 const Header = () => {
   const [showMenuBar, setShowMenuBar] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <header className="Header">
       <nav>
-        <ul className="nav-logo">
+        <ul className="nav-logo p-0">
           <li className="join-sm"></li>
 
           <li className="logo-link">
@@ -22,7 +23,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="toggle" onClick={handleShowMenuBar}>
-            <img src={menuBar} alt="menu-bar" />
+            <img src={showMenuBar ? closeMenuBar : menuBar} alt="menu-bar" />
           </li>
         </ul>
         <ul className={showMenuBar ? "nav-item show" : "nav-item hide"}>

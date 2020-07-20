@@ -1,3 +1,7 @@
 .About {
-  background-color: var(--theme-color);
+  background: linear-gradient(
+    to right,
+    var(--theme-color-four),
+    var(--theme-color-three)
+  );
 }

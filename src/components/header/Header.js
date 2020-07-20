@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Header.css";
 import menuBar from "../../assets/icons/menu-icon.png";
 
@@ -28,12 +28,12 @@ const Header = () => {
         <ul className={showMenuBar ? "nav-item show" : "nav-item hide"}>
           <li className="nav-link pro">
             <NavLink to="/" className="pro">
-              jobHub pro
+              corTex pro
             </NavLink>
           </li>
 
           <li className="nav-link">
-            <NavLink to="/">become a seller</NavLink>
+            <Link to="#about">about</Link>
           </li>
           <li className="nav-link">
             <NavLink to="/">sign in</NavLink>

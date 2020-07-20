@@ -44,8 +44,13 @@ const Banner = () => {
               Enhance your communications with your psychology-based copywriting
               and UX writing
             </p>
-            <button className="btn rounded-pill btn-info btn-lg my-md-5 my-3 px-3">
-              Send a message
+            <button
+              className="btn rounded-pill btn-lg my-md-5 my-3 px-4 py-2 text-light"
+              style={{
+                background: "linear-gradient(to right, #36D1DC, #5B86E5)",
+              }}
+            >
+              <small>Send a message</small>
             </button>
           </div>
           <div className="col-md-6  m-auto order-1 order-md-2">

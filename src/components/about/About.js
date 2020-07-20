@@ -3,7 +3,7 @@ import "./About.css";
 import ceo from "../../assets/icons/ceo.svg";
 const About = () => {
   return (
-    <div className="About container-fluid py-5 text-light">
+    <div className="About container-fluid py-5 text-light" id="about">
       <div className="container ">
         <div className="row my-2">
           <div className="col-md-6 m-auto text-center">
@@ -16,7 +16,12 @@ const About = () => {
           </div>
           <div className="col-md-6 mt-md-4">
             <p className="display-5 mt-3 mt-md-0">
-              <span className="bg-info px-4 shadow-lg">About</span>
+              <span
+                className="px-4 theme-shadow h1"
+                style={{ background: "var(--theme-color-three)" }}
+              >
+                About
+              </span>
             </p>
             <p className="lead">
               My copywriting and UX writing draws on abilities developed in the

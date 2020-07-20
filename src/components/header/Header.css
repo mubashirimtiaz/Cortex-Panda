@@ -6,9 +6,9 @@ nav {
   background-color: #ffffff;
   z-index: 3;
   position: relative;
-  border-top: 5px solid var(--theme-color);
+  border-top: 5px solid var(--theme-color-three);
   background-color: var(--background);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 15px #5b1f8f;
   position: fixed;
   width: 100%;
   left: 0;
@@ -20,7 +20,7 @@ nav .nav-logo .logo {
   font-family: "Ubuntu", sans-serif;
 }
 nav .nav-logo span {
-  color: var(--theme-color);
+  color: var(--theme-color-three);
 }
 nav ul {
   list-style: none;
@@ -43,8 +43,13 @@ nav .nav-logo .toggle {
   cursor: pointer;
   height: 30px;
   padding: 3px 5px;
-  background-color: var(--theme-color);
+  background-color: var(--theme-color-three);
   border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+nav .nav-logo .toggle:hover {
+  transform: scale(1.1);
+  background-color: #5b1f8f;
 }
 nav .nav-logo {
   display: flex;
@@ -58,10 +63,15 @@ nav .nav-item {
   height: 100vh;
   position: absolute;
   right: 0;
-  border-left: 1px solid var(--border-color);
+  box-shadow: 1px 5px 15px #5b1f8f;
+  /* border-left: 1px solid var(--border-color); */
   border-top: 1px solid var(--border-color);
   z-index: 1;
-  background-color: #ffffff;
+  background: linear-gradient(
+    to top,
+    var(--theme-color-four),
+    var(--theme-color-three)
+  );
   overflow: auto;
   text-align: center;
   transition: all 0.1s ease-in;
@@ -89,8 +99,11 @@ nav .nav-item .nav-link a {
   display: block;
   border-bottom: 1px solid var(--border-color);
   font-size: 16px;
-  color: var(--text-color);
+  color: #f7f7f7;
   padding: 10px;
+}
+nav .nav-item .nav-link a:hover {
+  background-color: #5b1f8f;
 }
 /* .overlay {
   width: 100%;

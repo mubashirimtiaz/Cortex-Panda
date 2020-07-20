@@ -1,4 +1,8 @@
 .Services {
   /* background-color: var(--theme-color); */
-  background-color: cadetblue;
+  background: linear-gradient(
+    to right,
+    var(--theme-color-three),
+    var(--theme-color-four)
+  );
 }

@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="Header">
       <nav>
-        <ul className="nav-logo p-0">
+        <ul className="nav-logo p-0 px-2">
           <li className="join-sm"></li>
 
           <li className="logo-link">

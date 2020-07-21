@@ -48,6 +48,8 @@ nav .nav-logo .toggle {
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
   transform: scale(0.8);
+  z-index: 2;
+  box-shadow: 1px 1px 5px #5b1f8f;
 }
 nav .nav-logo .toggle:hover {
   transform: scale(0.9);
@@ -65,9 +67,8 @@ nav .nav-item {
   height: 100vh;
   position: absolute;
   right: 0;
+  top: 0;
   box-shadow: 1px 5px 15px #5b1f8f;
-  /* border-left: 1px solid var(--border-color); */
-  border-top: 1px solid var(--border-color);
   z-index: 1;
   background: linear-gradient(
     to top,
@@ -84,12 +85,6 @@ nav .nav-item.hide {
 nav .nav-item.show {
   width: 30%;
 }
-/* nav .nav-logo .join-sm {
-  display: block;
-}
-nav .nav-logo .join-sm a {
-  font-weight: 600;
-} */
 nav .join-md {
   display: none;
 }
@@ -99,7 +94,7 @@ nav .nav-item .nav-link {
 nav .nav-item .nav-link a {
   text-decoration: none;
   display: block;
-  border-bottom: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
   font-size: 16px;
   color: #f7f7f7;
   padding: 10px;

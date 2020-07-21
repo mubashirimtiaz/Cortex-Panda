@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import "./Header.css";
 import menuBar from "../../assets/icons/menu-icon.png";
 import closeMenuBar from "../../assets/icons/delete-icon.png";
+import logoName from "../../assets/icons/logo-name.svg";
 
 const Header = () => {
   const [showMenuBar, setShowMenuBar] = useState(false);
@@ -27,6 +28,11 @@ const Header = () => {
           </li>
         </ul>
         <ul className={showMenuBar ? "nav-item show" : "nav-item hide"}>
+          <li>
+            <NavLink to="/">
+              <img src={logoName} alt="logo" height="150" className="my-4" />
+            </NavLink>
+          </li>
           <li className="nav-link pro">
             <NavLink to="/" className="pro">
               corTex pro
@@ -36,7 +42,7 @@ const Header = () => {
           <li className="nav-link">
             <Link to="#about">services</Link>
           </li>
-          <li className="nav-link">
+          <li className="nav-link border-bottom">
             <NavLink to="/">about</NavLink>
           </li>
           <li className="nav-link join-md">

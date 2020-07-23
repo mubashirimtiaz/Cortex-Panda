@@ -1,16 +1,15 @@
 import React from "react";
 import "./Services.css";
-
+import uxWriting from "../../assets/icons/ux-writing.svg";
+import webCopywright from "../../assets/icons/web-copywright.svg";
+import contentWriting from "../../assets/icons/content-writing.svg";
 const Services = () => {
   return (
     <div className="Services container-fluid py-5 text-light">
       <div className="container py-md-5">
         <div className="row my-2">
           <div className="col-md-6 m-auto">
-            <img
-              src="https://www.cortexcopywriter.com/img/services/services-6.svg"
-              alt="ux-writing"
-            />
+            <img src={uxWriting} alt="ux-writing" />
           </div>
           <div className="col-md-6 mt-md-4">
             <p className="display-5 mt-3 mt-md-0">UX Writing</p>
@@ -57,20 +56,14 @@ const Services = () => {
             </ul>
           </div>
           <div className="col-md-6 m-auto order-md-2 order-1">
-            <img
-              src="https://www.cortexcopywriter.com/img/services/services-7.svg"
-              alt="ux-writing"
-            />
+            <img src={webCopywright} alt="web-copywright" />
           </div>
         </div>
       </div>
       <div className="container py-md-5">
         <div className="row my-2">
           <div className="col-md-6 m-auto">
-            <img
-              src="https://www.cortexcopywriter.com/img/services/services-5.svg"
-              alt="ux-writing"
-            />
+            <img src={contentWriting} alt="content-writing" />
           </div>
           <div className="col-md-6 mt-md-4">
             <p className="display-5 mt-3 mt-md-0">Content Writing</p>

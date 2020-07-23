@@ -1,5 +1,8 @@
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
+import introFrontLayer from "../../assets/icons/Intro_Front_Layer.svg";
+import introBrain from "../../assets/icons/Intro_Brain.svg";
+import introFeaturedImageEmpty from "../../assets/icons/Intro_Featured_Image_Empty.svg";
 import "./banner.css";
 
 const Banner = () => {
@@ -51,19 +54,19 @@ const Banner = () => {
           <div className="col-md-6  m-auto order-1 order-md-2">
             <div className="main-svg my-5 my-md-2">
               <img
-                src="https://www.cortexcopywriter.com/img/intro/Intro_Featured_Image_Empty.svg"
-                alt="banner-img"
+                src={introFeaturedImageEmpty}
+                alt="banner-main-img"
                 className="main-img  img-fluid"
               />
               <img
-                src="https://www.cortexcopywriter.com/img/intro/Intro_Front_Layer.svg"
-                alt=""
+                src={introFrontLayer}
+                alt="banner-support-img"
                 className="support-img-one img-fluid"
                 ref={supportImgOne}
               />
               <img
-                src="https://www.cortexcopywriter.com/img/intro/Intro_Brain.svg"
-                alt=""
+                src={introBrain}
+                alt="banner-support-img"
                 className="support-img-two img-fluid"
                 ref={supportImgTwo}
               />
